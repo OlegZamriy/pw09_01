@@ -2,5 +2,27 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="student.cpp">
+      <Filter>student</Filter>
+    </ClCompile>
+    <ClCompile Include="aspirant.cpp">
+      <Filter>aspirant</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="student">
+      <UniqueIdentifier>{a6baa5a9-adec-401a-84b8-15293209a2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aspirant">
+      <UniqueIdentifier>{62dd14e6-f958-42cc-b4a7-4a7e5a6d47fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="student.h">
+      <Filter>student</Filter>
+    </ClInclude>
+    <ClInclude Include="aspirant.h">
+      <Filter>aspirant</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
