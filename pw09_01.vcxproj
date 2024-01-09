@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bicycle.cpp" />
+    <ClCompile Include="car.cpp" />
+    <ClCompile Include="cart.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="transport.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bicycle.h" />
+    <ClInclude Include="car.h" />
+    <ClInclude Include="cart.h" />
+    <ClInclude Include="transport.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
